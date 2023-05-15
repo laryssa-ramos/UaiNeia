@@ -121,8 +121,8 @@ section{
     display: flex;
     position: relative;
     flex-wrap: wrap;
-    gap: 1.5rem;
-    min-height: 100vh;
+    gap: 1rem;
+    min-height: 95vh;
     align-items: center;
     background: url(../images/hero.jpeg) no-repeat;
     background-size: cover;
@@ -221,13 +221,17 @@ section{
         border-left: .5rem solid var(--color-brown);
     }
 
+    .home{
+        min-height: 80vh;
+    }
+
     .home .image img{
         margin-left: 15%;
     }
 
     .home .content{
 
-        margin: -18rem 0 0 10.5%;
+        margin: -8rem 0 0 10%;
     }
 
 
@@ -235,9 +239,14 @@ section{
 
 @media (max-width:480px){
 
+    .home{
+        min-height: 60vh;
+    }
+    
+
     .home .content{
 
-        margin: -45rem 0 0 10.1%;
+        margin: -10rem 0 0 10.1%;
     }
 
     .home .content h1{
