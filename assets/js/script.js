@@ -12,3 +12,16 @@ window.onscroll = () =>{
     navbar.classList.remove('active');
 
 }
+
+var carousel = document.querySelector('.carousel');
+var prevButton = document.querySelector('.prev');
+var nextButton = document.querySelector('.next');
+var slideWidth = carousel.clientWidth;
+
+nextButton.addEventListener('click', function() {
+carousel.scrollLeft += slideWidth;
+});
+
+prevButton.addEventListener('click', function() {
+carousel.scrollLeft -= slideWidth;
+});
