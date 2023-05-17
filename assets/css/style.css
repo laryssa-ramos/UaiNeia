@@ -181,44 +181,48 @@ section{
     justify-content: center;
 }
 
-.products .carousel-container {
-    display:flex ;
+.products .carousel{
     position: relative;
-}
-
-.products  .carousel-container .carousel {
-    display: flex;
-    overflow: hidden;
-}
-
-.products .carousel-container .carousel .box{
-    margin-left: 5rem;
-}
-
-.products .carousel-container .carousel .box span{
     display: flex;
     justify-content: center;
 }
 
-.products .carousel-container .carousel .box span.title{
+.products .carousel .carousel-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+   
+}
+
+.products .carousel .carousel-container .carousel-item {
+    flex: 1 1 100%;
+    margin-left: 1.5rem;
+}
+
+.products .carousel .carousel-container .carousel-item img {
+    width:20rem;
+    height:20rem;
+    object-fit: cover;
+}
+
+.products .carousel .carousel-container .carousel-item span{
+    display: flex;
+    justify-content: center;
+}
+
+.products .carousel .carousel-container .carousel-item span.title{
     font-size: var(--font-product);
     font-weight: 500;
 }
 
-.products .carousel-container .carousel .box span.price{
+.products .carousel .carousel-container .carousel-item span.price{
     font-size: var(--font-price);
     padding: .7rem 0;
 }
 
-.products .carousel-container .carousel .box img{
-    width: 200px;
-    border-radius: 2px;
-    height: auto;
-}
-
-.prev,
-.next {
-    top: 40%;
+.products .carousel .carousel-prev,
+.carousel-next {
+    top: 50%;
     height: 46px;
     width: 46px;
     position: absolute;
@@ -228,16 +232,33 @@ section{
     line-height: 46px;
     background: rgb(189, 186, 186);
     border-radius: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-70%);
+    z-index: 2;
 }
-.prev {
-    left: 30px;
-}
-
-.next {
-    right: 40px;
+.products .carousel .carousel-prev {
+    left: -2%;
 }
 
+.products .carousel .carousel-next {
+    right: -2%;
+}
+
+
+
+
+
+
+
+    
+
+   
+
+   
+
+   
+
+
+   
 
 
 /* media quaries */
@@ -308,6 +329,11 @@ section{
 
         margin: -8rem 0 0 10%;
     }
+    
+    .products .carousel .carousel-container {
+        width: 100%;
+    }
+    
 
 
 }
@@ -328,6 +354,13 @@ section{
 
        font-size: 4rem;
     }
+
+    .products .carousel .carousel-container .carousel-item img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+    
 
 }
 

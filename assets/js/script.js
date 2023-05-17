@@ -13,15 +13,24 @@ window.onscroll = () =>{
 
 }
 
-var carousel = document.querySelector('.carousel');
-var prevButton = document.querySelector('.prev');
-var nextButton = document.querySelector('.next');
-var slideWidth = carousel.clientWidth;
+// CAROUSEL IMAGES
 
-nextButton.addEventListener('click', function() {
-carousel.scrollLeft += slideWidth;
+const carouselContainer = document.querySelector('.carousel-container');
+const carouselPrev = document.querySelector('.carousel-prev');
+const carouselNext = document.querySelector('.carousel-next');
+
+carouselPrev.addEventListener('click', function(event) {
+event.preventDefault();
+    carouselContainer.scrollBy({
+        left: -carouselContainer.offsetWidth,
+        behavior: 'smooth'
+    });
 });
 
-prevButton.addEventListener('click', function() {
-carousel.scrollLeft -= slideWidth;
+carouselNext.addEventListener('click', function(event) {
+event.preventDefault();
+    carouselContainer.scrollBy({
+        left: carouselContainer.offsetWidth,
+        behavior: 'smooth'
+    });
 });
