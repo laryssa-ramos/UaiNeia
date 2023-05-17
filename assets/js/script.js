@@ -17,22 +17,50 @@ window.onscroll = () =>{
 
 // CAROUSEL IMAGES
 
-const carouselContainer = document.querySelector('.carousel-container');
-const carouselPrev = document.querySelector('.carousel-prev');
-const carouselNext = document.querySelector('.carousel-next');
 
-carouselPrev.addEventListener('click', function(event) {
-event.preventDefault();
-    carouselContainer.scrollBy({
-        left: -carouselContainer.offsetWidth,
-        behavior: 'smooth'
-    });
-});
+var swiper = new Swiper(".slide-content", {
+    slidesPerView: 4,
+    spaceBetween: 18,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    grabCursor: 'true',
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
 
-carouselNext.addEventListener('click', function(event) {
-event.preventDefault();
-    carouselContainer.scrollBy({
-        left: carouselContainer.offsetWidth,
-        behavior: 'smooth'
-    });
-});
+    breakpoints:{
+
+        0:{
+            slidesPerView: 1,
+        },
+
+        520:{
+            slidesPerView: 2,
+        },
+
+        950:{
+            slidesPerView: 4,
+        },
+    }
+
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
