@@ -6,7 +6,7 @@
 
     --color-yellow: #f6f26f;
     --color-black:#000;
-    --color-brown: #613939;
+    --color-brown: #502000;
     --color-white: #fff;
     --color-green:#c1c1c1;
 
@@ -16,7 +16,7 @@
     
     --font-h1: 5rem;
     --font-h2: 3.5rem;
-    --font-category:2.8rem;
+    --font-category:2.5rem;
     --font-product: 2rem;
     --font-price: 1.7rem;
 
@@ -51,11 +51,13 @@ section{
 .heading{
     font-size: var(--font-h2);
     padding: 2rem 0;
+    color: var(--color-brown);
 }
 
 .category{
     font-size: var(--font-category);
     margin-bottom: 2rem;
+    color: var(--color-brown);
 }
 
 .category-margin{
@@ -241,6 +243,7 @@ section{
     display: flex;
     justify-content: center;
     font-size: var(--font-product);
+    color: var(--color-brown);
     font-weight: 500;
 
 }
