@@ -133,7 +133,7 @@ section{
     margin-top: 4rem;
     flex-wrap: wrap;
     gap: 1rem;
-    min-height: 95vh;
+    min-height: 90vh;
     align-items: center;
     background: url(../images/hero.jpeg) no-repeat;
     background-size: cover;
