@@ -4,7 +4,7 @@
 
     /*----------COLORS---------*/
 
-    --color-yellow: #fdf864;
+    --color-yellow: #f6f26f;
     --color-black:#000;
     --color-brown: #613939;
     --color-white: #fff;
@@ -56,6 +56,10 @@ section{
 .category{
     font-size: var(--font-category);
     margin-bottom: 2rem;
+}
+
+.category-margin{
+    margin: 2rem;
 }
 
 
@@ -194,11 +198,12 @@ section{
     width: 100%;
 }
 
-.products .products-container .slide-content{
-   margin: 0 40px;
+.products .products-container .slide-content_1,
+.slide-content_2{
+   margin: 0 2.5rem;
    background-color: var(--color-white);
    overflow: hidden;
-   border-radius: 25px;
+   border-radius: .5rem;
 
 }
 
@@ -213,7 +218,7 @@ section{
 .products .products-container .image-content{
     position: relative;
     row-gap: 5px;
-    padding: 25px;
+    padding: 1.5rem 1.5rem 0 1.5rem;
   }
 
 
@@ -233,6 +238,8 @@ section{
 
 .products .products-container .card-content span.title{
     margin-top: .3rem;
+    display: flex;
+    justify-content: center;
     font-size: var(--font-product);
     font-weight: 500;
 
@@ -244,10 +251,22 @@ section{
 }
   
 .products .products-container .swiper-navBtn{
-    color: var(--color-black);
+    color: var(--color-white);
    
 }
 
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: var(--swiper-navigation-size);
+    text-transform: none!important;
+    /* letter-spacing: 0; */
+    font-variant: initial;
+    line-height: 1;
+    font-size: 3rem;
+    background: grey;
+    padding: 1rem 1.5rem;
+    border-radius: 50%;
+}
    
 
    
@@ -276,6 +295,14 @@ section{
 
 }
 
+@media (max-width: 825px){
+    .products .products-container .card-image{
+        position: relative;
+        height: 150px;
+        width: 150px;
+        border-radius: .8rem;
+    }
+}
 
 @media (max-width: 768px){
 
@@ -326,6 +353,11 @@ section{
 
         margin: -8rem 0 0 10%;
     }
+
+    .products{
+        padding:2rem 0;
+    }
+    
     
     .products .carousel .carousel-container {
         width: 100%;
@@ -340,7 +372,6 @@ section{
     .home{
         min-height: 60vh;
     }
-    
 
     .home .content{
 
@@ -353,8 +384,8 @@ section{
     }
 
     .products .carousel .carousel-container .carousel-item img {
-        width: 150px;
-        height: 150px;
+        width: 125px;
+        height: 125px;
         object-fit: cover;
     }
     
@@ -367,4 +398,9 @@ section{
     html{
         font-size: 50%;
     }
+
+    .products .products-container .slide-content_1, 
+    .slide-content_2{
+        margin:0 .5rem;
+     }
 }
