@@ -130,7 +130,6 @@ section{
 .home{
     display: flex;
     position: relative;
-    margin-top: 1rem;
     flex-wrap: wrap;
     gap: 1rem;
     min-height: 90vh;
@@ -155,6 +154,7 @@ section{
 
 .home .image{
     flex: 1 1 40rem;
+    margin-top: 4rem;
     z-index: 10;
 }
 
