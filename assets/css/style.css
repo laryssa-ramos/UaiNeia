@@ -130,7 +130,7 @@ section{
 .home{
     display: flex;
     position: relative;
-    margin-top: 2rem;
+    margin-top: 1rem;
     flex-wrap: wrap;
     gap: 1rem;
     min-height: 90vh;
