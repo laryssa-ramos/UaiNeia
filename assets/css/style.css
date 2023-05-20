@@ -291,7 +291,7 @@ section{
 
 .about .about-container{
     display: flex;
-    padding: 2.3rem;
+    padding: 2.3rem 10%;
     justify-content: center;
     border: solid 2px var(--color-yellow);
     border-radius: 1rem;
@@ -307,7 +307,7 @@ section{
 }
 
 .about .about-container .text p{
-   font-size: 1.85rem;
+   font-size: 1.9rem;
    text-align: center;
 }
 
@@ -442,9 +442,7 @@ section{
         width: 30rem;
     }
      
-    .about .about-container .text p{
-       font-size: 1.5rem;
-    }
+   
     
 
 }
@@ -456,8 +454,10 @@ section{
         font-size: 50%;
     }
 
-    .products .products-container .slide-content_1, 
-    .slide-content_2{
+    .products .products-container 
+    .slide-content_1, 
+    .slide-content_2,
+    .slide-content_3{
         margin:0 .5rem;
      }
 }
