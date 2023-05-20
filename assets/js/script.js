@@ -95,6 +95,43 @@ var swiper = new Swiper(".slide-content_1", {
   });
 
 
+  var swiper = new Swiper(".slide-content_3", {
+    slidesPerView: 4,
+    spaceBetween: 18,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    grabCursor: 'true',
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".btn-next_3",
+      prevEl: ".btn-prev_3",
+    },
+
+    breakpoints:{
+
+        0:{
+            slidesPerView: 1,
+        },
+
+        321:{
+            slidesPerView: 2,
+        },
+
+        600:{
+            slidesPerView: 3,
+        },
+
+        1187:{
+            slidesPerView: 4,
+        },
+    }
+
+  });
 
 
 
