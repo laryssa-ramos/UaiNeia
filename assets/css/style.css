@@ -406,6 +406,10 @@ section{
         flex-wrap: wrap;
     }
 
+    .about .about-container .text {
+       margin-top: 1.3rem;
+    }
+
 
 }
 @media(max-width:695px){
@@ -440,6 +444,10 @@ section{
 
     .about .about-container .image img{
         width: 30rem;
+    }
+
+    .about .about-container {
+        padding: 2.3rem 2%;
     }
      
    
