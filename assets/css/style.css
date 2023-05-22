@@ -45,12 +45,12 @@ html {
 }
 
 section{
-    padding: 2rem 9%;
+    padding: 2rem 9% 5rem;
 }
 
 .heading{
     font-size: var(--font-h2);
-    padding: 2rem 0;
+    padding: 0 2rem 2rem ;
     color: var(--color-brown);
     display: flex;
     justify-content: center;
@@ -136,7 +136,7 @@ section{
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
-    min-height: 90vh;
+    min-height: 92vh;
     align-items: center;
     background: url(../images/hero.jpeg) no-repeat;
     background-size: cover;
@@ -312,11 +312,39 @@ section{
   
 }
 
+/* CONTACT */
+
+.contact{
+    background: var(--color-yellow);
+}
+
+.contact .contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact .contact-container
+.whatsapp,
+.gmail{
+    display: flex;
+    align-items: center;
+}
 
    
+.contact .contact-container .whatsapp img{
+    width: 60px;
+}
 
 
-   
+.contact .contact-container .gmail img{
+    width: 50px;
+}
+
+.contact .contact-container .info{
+   margin: 1.2rem;
+   font-size: 2.2rem;
+}
 
 
 /* media quaries */
@@ -432,6 +460,7 @@ section{
     .home .image img{
          margin-bottom: 2rem;
      }
+    
 
 }
 
@@ -469,8 +498,19 @@ section{
         padding: 2.3rem 2%;
     }
      
-   
+    .contact .contact-container .whatsapp img{
+        width: 40px;
+    }
     
+    
+    .contact .contact-container .gmail img{
+        width: 30px;
+    }
+    
+    .contact .contact-container .info{
+       margin-left: 1rem;
+       font-size: 1.8rem;
+    }
 
 }
 
