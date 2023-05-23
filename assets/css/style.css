@@ -37,6 +37,7 @@
     color: var(--color-yellow);
 }
 
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -64,6 +65,18 @@ section{
 
 .category-margin{
     margin: 2rem;
+}
+
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+.whatsapp-icon img{
+    width:50px;
 }
 
 
