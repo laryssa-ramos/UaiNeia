@@ -483,6 +483,7 @@ section{
         background: var(--color-yellow);
         border-top: .1rem solid rgba(0, 0, 0,.1);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  
     }
 
     .header .navbar .link::after{
@@ -491,6 +492,7 @@ section{
 
     .header .navbar.active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
     }
 
     .header .navbar .link{
