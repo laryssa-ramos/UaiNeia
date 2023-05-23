@@ -135,7 +135,18 @@ var swiper = new Swiper(".slide-content_1", {
 
 
 
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    //reset:true
+})
 
+sr.reveal('.home_image, .home_content, .contact-container, .menu-container ')
+sr.reveal('.swiper-slide, .box', {interval: 100})
+sr.reveal('.about_image', {origin: 'left'})
+sr.reveal('.about_text', {origin: 'right'})
 
 
 
