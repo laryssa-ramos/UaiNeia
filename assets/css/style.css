@@ -8,7 +8,7 @@
     --color-black:#000;
     --color-brown: #502000;
     --color-white: #fff;
-    --color-green:#c1c1c1;
+    --color-gray:#c1c1c1;
 
     /*----------FONTS---------*/
 
@@ -391,7 +391,51 @@ section{
     text-align: center;
 }
 
+.footer{
+    background: var(--color-black);
+    padding: 3% 5%;
+}
 
+.footer .menu-container{
+    margin-bottom: 1%;
+    font-size: 1.5rem;
+}
+
+.footer 
+.menu-container,
+.footer p{
+    display: flex;
+    justify-content: center;
+    color: var(--color-gray);
+}
+
+.footer .menu-container .link{
+    margin: 0 1%;
+    color: var(--color-gray);
+}
+
+.footer .hr{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   border-bottom: 1px solid var(--color-gray);
+}
+
+.footer p{
+    display: flex;
+    justify-content: center;
+    color: var(--color-gray);
+    margin-top: 1rem;
+}
+
+.footer .portfolio{
+    color: var(--color-gray);
+}
+
+.footer .menu-container .link:hover,
+.footer .portfolio:hover{
+    color: var(--color-yellow);
+}
 
 /* media quaries */
 
