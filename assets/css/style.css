@@ -439,7 +439,7 @@ section{
     justify-content: center;
     color: var(--color-gray);
     margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .footer .portfolio{
@@ -573,7 +573,7 @@ section{
 @media (max-width:480px){
 
     .home{
-        min-height: 60vh;
+        min-height: 65vh;
     }
 
     .home .content{
