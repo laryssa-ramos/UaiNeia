@@ -334,6 +334,7 @@ section{
    
 .contact .contact-container .whatsapp img{
     width: 60px;
+    margin-left: -5%;
 }
 
 
@@ -349,6 +350,11 @@ section{
 .contact .contact-container a{
     color: var(--color-black);
 }
+
+.contact .contact-container a:hover{
+    color: rgb(86, 84, 84);
+}
+
 
 
 
@@ -513,7 +519,6 @@ section{
     
     .contact .contact-container .info{
        margin-left: 1rem;
-       font-size: 1.8rem;
     }
 }
 
