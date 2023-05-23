@@ -560,6 +560,11 @@ section{
         width: 60px;
     }
 
+
+.payment .payment-container .box .info{
+    font-size: 1.8rem;
+}
+
     .payment .payment-container .card{
         margin-left: -2.1rem;
     }
