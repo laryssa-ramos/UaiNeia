@@ -143,7 +143,7 @@ const sr = ScrollReveal({
     //reset:true
 })
 
-sr.reveal('.home_image, .home_content, .contact-container, .menu-container ')
+sr.reveal('.home_image, .home_content, .contact-container')
 sr.reveal('.swiper-slide, .box', {interval: 100})
 sr.reveal('.about_image', {origin: 'left'})
 sr.reveal('.about_text', {origin: 'right'})
