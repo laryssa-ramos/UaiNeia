@@ -572,6 +572,10 @@ section{
 
 @media (max-width:480px){
 
+    .heading{
+        font-size: 3rem;
+    }
+
     .home{
         min-height: 65vh;
     }
