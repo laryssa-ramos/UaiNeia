@@ -74,7 +74,7 @@ section{
     right: 20px;
     z-index: 9999;
   }
-  
+
 .whatsapp-icon img{
     width:50px;
 }
@@ -439,6 +439,7 @@ section{
     justify-content: center;
     color: var(--color-gray);
     margin-top: 1rem;
+    font-size: 1.2rem;
 }
 
 .footer .portfolio{
