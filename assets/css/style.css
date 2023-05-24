@@ -273,6 +273,7 @@ section{
 }
   
 .products .products-container .card-content span.price{
+    display: none;
     font-size: var(--font-price);
     padding: .7rem 0;
 }
