@@ -369,6 +369,8 @@ section{
     color: rgb(56, 55, 55);
 }
 
+/* PAYMENT */
+
 .payment{
     text-align: center;
 }
@@ -405,6 +407,8 @@ section{
     text-align: center;
 }
 
+/* FOOTER */
+
 .footer{
     background: var(--color-black);
     padding: 3% 5%;
@@ -412,7 +416,7 @@ section{
 
 .footer .menu-container{
     margin-bottom: 1%;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .footer 
@@ -440,7 +444,7 @@ section{
     justify-content: center;
     color: var(--color-gray);
     margin-top: 1rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .footer .portfolio{
@@ -626,9 +630,9 @@ section{
     }
 
 
-.payment .payment-container .box .info{
-    font-size: 1.8rem;
-}
+    .payment .payment-container .box .info{
+        font-size: 1.8rem;
+    }
 
     .payment .payment-container .card{
         margin-left: -2.1rem;
@@ -638,6 +642,11 @@ section{
     .payment .payment-container .pix img{
         width: 50px;
     }
+
+    .footer .menu-container{
+        font-size: 1.5rem;
+    }
+    
     
 }
 
