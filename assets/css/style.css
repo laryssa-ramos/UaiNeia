@@ -152,6 +152,7 @@ section{
     min-height: 92vh;
     align-items: center;
     background: url(../images/hero.jpeg) no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
@@ -339,16 +340,16 @@ section{
 }
 
 .contact .contact-container
-.whatsapp,
+.phone,
 .gmail{
     display: flex;
     align-items: center;
 }
 
    
-.contact .contact-container .whatsapp img{
-    width: 60px;
-    margin-left: -5%;
+.contact .contact-container .phone img{
+    width: 52px;
+    margin-left: -13%;
 }
 
 
@@ -405,6 +406,13 @@ section{
 .payment .payment-container .box .info{
     font-size: 2rem;
     text-align: center;
+}
+
+.payment .obs{
+    
+    color: rgb(108, 107, 107);
+    font-size: 1.3rem;
+    margin-top: 2%;
 }
 
 /* FOOTER */
@@ -612,8 +620,8 @@ section{
     .about .about-container {
         padding: 2.3rem 2%;
     }
-    .contact .contact-container .whatsapp img{
-        width: 40px;
+    .contact .contact-container .phone img{
+        width: 32px;
     }
     
     
