@@ -72,7 +72,7 @@ section{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 9999;
+    z-index: 9990;
   }
 
 .whatsapp-icon img{
@@ -87,7 +87,7 @@ section{
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 9999;
     display: flex;
     align-items: center;
     justify-content: space-between;
