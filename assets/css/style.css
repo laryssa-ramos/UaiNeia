@@ -593,7 +593,7 @@ section{
     }
 
     .home{
-        min-height: 65vh;
+        min-height: 60vh;
     }
 
     .home .content h1{
@@ -632,7 +632,7 @@ section{
     }
 
     .payment .payment-container img{
-        width: 60px;
+        width: 45px;
     }
 
 
