@@ -15,7 +15,7 @@
     --font:  'Rubik', sans-serif;
     
     --font-h1: 5rem;
-    --font-h2: 3.5rem;
+    --font-h2: 3rem;
     --font-category:2.5rem;
     --font-product: 2rem;
     --font-price: 1.7rem;
@@ -351,18 +351,18 @@ section{
 
    
 .contact .contact-container .phone img{
-    width: 52px;
+    width: 48px;
     margin-left: -13%;
 }
 
 
 .contact .contact-container .gmail img{
-    width: 50px;
+    width: 46px;
 }
 
 .contact .contact-container .info{
    margin: 1.2rem;
-   font-size: 2.2rem;
+   font-size: 1.8rem;
 }
 
 .contact .contact-container a{
@@ -394,7 +394,7 @@ section{
 }
 
 .payment .payment-container img{
-    width: 80px;
+    width: 60px;
 }
 
 .payment .payment-container .pix{
@@ -402,12 +402,12 @@ section{
 }
 
 .payment .payment-container .pix img{
-    width: 70px;
+    width: 50px;
     margin-bottom: .6rem;
 }
 
 .payment .payment-container .box .info{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -481,6 +481,10 @@ section{
 
     header{
         padding: 2rem;
+    }
+
+    .payment .obs{   
+        margin: 1rem 0 0;
     }
 
 }
@@ -615,12 +619,12 @@ section{
         padding: 2.3rem 2%;
     }
     .contact .contact-container .phone img{
-        width: 32px;
+        width: 28px;
     }
     
     
     .contact .contact-container .gmail img{
-        width: 30px;
+        width: 26px;
     }
     
     .contact .contact-container .info{
@@ -633,7 +637,7 @@ section{
 
 
     .payment .payment-container .box .info{
-        font-size: 1.8rem;
+        font-size: 1.3rem;
     }
 
     .payment .payment-container .card{
@@ -641,10 +645,6 @@ section{
     }
         
     
-    .payment .payment-container .pix img{
-        width: 50px;
-    }
-
     .footer .menu-container{
         font-size: 1.5rem;
     }
