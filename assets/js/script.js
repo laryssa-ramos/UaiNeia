@@ -135,18 +135,18 @@ var swiper = new Swiper(".slide-content_1", {
 
 
 
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '60px',
-    duration: 2500,
-    delay: 400,
-    //reset:true
-})
+// const sr = ScrollReveal({
+//     origin: 'top',
+//     distance: '60px',
+//     duration: 2500,
+//     delay: 400,
+//     //reset:true
+// })
 
-sr.reveal('.home_image, .home_content, .slide-content_1,  .slide-content_2, .slide-content_3')
-sr.reveal('.box', {interval: 100})
-sr.reveal('.about_image, .phone', {origin: 'left'})
-sr.reveal('.about_text, .gmail', {origin: 'right'})
+// sr.reveal('.home_image, .home_content, .slide-content_1,  .slide-content_2, .slide-content_3')
+// sr.reveal('.box', {interval: 100})
+// sr.reveal('.about_image, .phone', {origin: 'left'})
+// sr.reveal('.about_text, .gmail', {origin: 'right'})
 
 
 
